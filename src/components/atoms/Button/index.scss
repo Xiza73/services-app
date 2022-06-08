@@ -1,0 +1,41 @@
+.bgh-red {
+  &:hover {
+    @apply bg-red-50;
+  }
+}
+
+.bgh-green {
+  &:hover {
+    @apply bg-green-50;
+  }
+}
+
+.bgh-blue {
+  &:hover {
+    @apply bg-blue-50;
+  }
+}
+
+.text-red {
+  @apply text-red-100;
+
+  &:hover {
+    @apply text-red-150;
+  }
+}
+
+.text-blue {
+  @apply text-blue-100;
+
+  &:hover {
+    @apply text-blue-150;
+  }
+}
+
+.text-green {
+  @apply text-green-100;
+
+  &:hover {
+    @apply text-green-150;
+  }
+}

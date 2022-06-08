@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`renders button 1`] = `
+<button
+  className="text-blue font-semibold px-4 py-1 rounded-md border-none hover:scale-125 duration-300 text-md"
+>
+  something
+</button>
+`;
