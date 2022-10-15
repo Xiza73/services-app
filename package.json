@@ -47,6 +47,11 @@
     "vite": "^2.9.9",
     "vitest": "^0.14.1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
   "lint-staged": {
     "*.tsx": "eslint --cache --fix",
     "*.{tsx,ts,scss,md}": "prettier --write"
